@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Visibility</title>
+
+    <style>
+      div {
+        visibility: hidden;
+        display: none; 
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The spans would be next to each other
+    if div was removed completely, but since
+    it is only hidden it takes the whole space
+    as regular block-level element -->
+    <span>I am a span</span>
+    <div>
+      I am div, but you can't see me!
+    </div>  
+    <span>I am a span</span>
+  </body>
+</html>
